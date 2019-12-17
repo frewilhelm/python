@@ -1,10 +1,19 @@
-# This neural network script is based on the remarks of Aidan Wilson
-#  https://towardsdatascience.com/inroduction-to-neural-networks-in-python-7e0b422e6c24
+"""
+info
+----
 
-# A neural network contains an input (x), some hidden and an output layer (y). Between each
-#  layer, there is a set of weights and biases. Finally, there is an activation function
-#  for each hidden layer.
+@author: fwilhelm92
+@IDE: PyCharm
+@platform: windows
+@python: 3.8
 
+This neural network script is based on the remarks of Aidan Wilson
+ https://towardsdatascience.com/inroduction-to-neural-networks-in-python-7e0b422e6c24
+
+A neural network contains an input (x), some hidden and an output layer (y). Between each
+ layer, there is a set of weights and biases. Finally, there is an activation function
+ for each hidden layer.
+"""
 
 # Import libraries
 import numpy as np
@@ -26,11 +35,27 @@ outputData = np.array([[0],
                        [1],
                        [1]])
 
-# 2-Layer neural network
-class neuralNetwork:
 
-    # Init-Functions
+class neuralNetwork:
+    """
+    A class used to test neural networks
+
+    Attributes
+    ----------
+    - 2-Layer neural network
+
+    Methods
+    -------
+    ...
+    """
+
+    # Init-Function
     def __init__(self, inputData, outputData):
+        """
+        @param
+        @returns
+
+        """
         self.input = inputData                          # Input layer
         self.outputData = outputData                    # Output layer
 

@@ -1,4 +1,4 @@
-# python
+# Python
 A small playground for ideas and projects in python
 
 Project Neural Networks:
